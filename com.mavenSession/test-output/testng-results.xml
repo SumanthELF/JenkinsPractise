@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[executing createLead]]>
+    </line>
+    <line>
+      <![CDATA[facebook]]>
+    </line>
+    <line>
+      <![CDATA[safari]]>
+    </line>
+    <line>
+      <![CDATA[fromEclipse]]>
+    </line>
+    <line>
+      <![CDATA[executing createContact]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="83" started-at="2021-05-21T11:30:45 IST" finished-at="2021-05-21T11:30:45 IST">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CreateContactsTest.createContact()[pri:0, instance:contacts.CreateContactsTest@614ddd49]" name="createContact" class="contacts.CreateContactsTest"/>
+        <method signature="CreateLeadsTest.createLead()[pri:0, instance:leads.CreateLeadsTest@76707e36]" name="createLead" class="leads.CreateLeadsTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="83" started-at="2021-05-21T11:30:45 IST" finished-at="2021-05-21T11:30:45 IST">
+      <class name="leads.CreateLeadsTest">
+        <test-method status="PASS" signature="createLead()[pri:0, instance:leads.CreateLeadsTest@76707e36]" name="createLead" duration-ms="11" started-at="2021-05-21T11:30:45 IST" finished-at="2021-05-21T11:30:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[executing createLead]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+      </class> <!-- leads.CreateLeadsTest -->
+      <class name="contacts.CreateContactsTest">
+        <test-method status="PASS" signature="createContact()[pri:0, instance:contacts.CreateContactsTest@614ddd49]" name="createContact" duration-ms="3" started-at="2021-05-21T11:30:45 IST" finished-at="2021-05-21T11:30:45 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[facebook]]>
+            </line>
+            <line>
+              <![CDATA[safari]]>
+            </line>
+            <line>
+              <![CDATA[fromEclipse]]>
+            </line>
+            <line>
+              <![CDATA[executing createContact]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+      </class> <!-- contacts.CreateContactsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
